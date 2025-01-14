@@ -13,4 +13,12 @@
 -- | 2020 | Washington Nationals              |
 -- +------+-----------------------------------+
 
+.mode columns
+.headers on
+
+SELECT year, name 
+FROM teams
+ORDER BY year
+LIMIT 3000;
+
 
